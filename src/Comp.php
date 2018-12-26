@@ -7,9 +7,13 @@
  */
 namespace Comp;
 
-class Comp
+class App
 {
     public function hello() {
         echo "hello";
+    }
+
+    public function say() {
+        echo "wawa";
     }
 }
