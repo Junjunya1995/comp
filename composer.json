@@ -1,0 +1,16 @@
+{
+    "name": "wzj/comp",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wzj",
+            "email": "tojunjunwei@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Comp\\": "src/"
+        }
+    }
+}
