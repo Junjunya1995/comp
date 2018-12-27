@@ -1,5 +1,5 @@
 {
-    "name": "junjunya/comp",
+    "name": "junjunya/easyswoole-upload",
     "type": "library",
     "license" : "Apache-2.0",
     "authors": [
@@ -8,10 +8,15 @@
             "email": "tojunjunwei@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1.0",
+        "easyswoole/component": "^1.3",
+        "easyswoole/spl": "^1.1",
+        "ext-swoole": "^4.0.0"
+    },
     "autoload": {
         "psr-4": {
-            "Comp\\": "src/"
+            "EasySwoole\\Upload\\": "src/"
         }
     }
 }
